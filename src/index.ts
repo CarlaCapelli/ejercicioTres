@@ -1,4 +1,4 @@
-let letra = prompt("ingrese nueve");
+let letra = prompt("ingrese A,B,C o D");
 
 function tabla(i: number) {
   let mult: number;
@@ -8,8 +8,8 @@ function tabla(i: number) {
   }
 }
 
-while (letra !== "nueve") {
-  letra = prompt("ingrese nueve");
+while (letra !== "A" && letra !== "B" && letra !== "C" && letra !== "D") {
+  letra = prompt("ingrese A,B,C o D");
 }
 
 tabla();
